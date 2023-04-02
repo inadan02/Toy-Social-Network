@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="667.0" style="-fx-background-color: CBC3E3;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiex1.controller.CreateAccController">
+
+   <HBox layoutX="15.0" layoutY="73.0" prefHeight="41.0" prefWidth="637.0">
+      <Label prefHeight="20.0" prefWidth="100.0" style="-fx-text-fill: #301934;" text="First name:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="text_FirstName" prefHeight="25.0" prefWidth="200.0" />
+   </HBox>
+   <Button layoutX="108.0" layoutY="334.0" mnemonicParsing="false" onAction="#handleAddUtilizator" prefHeight="23.0" prefWidth="433.0" style="-fx-background-color: #301934; -fx-text-fill: CBC3E3;" text="Add" />
+   <HBox layoutX="15.0" layoutY="132.0" prefHeight="41.0" prefWidth="637.0">
+      <Label prefHeight="20.0" prefWidth="100.0" style="-fx-text-fill: #301934;" text="Last name:" />
+      <TextField fx:id="text_LastName" prefHeight="25.0" prefWidth="200.0" />
+   </HBox>
+   <HBox layoutX="16.0" layoutY="196.0" prefHeight="41.0" prefWidth="637.0">
+      <Label prefHeight="20.0" prefWidth="100.0" style="-fx-text-fill: #301934;" text="email:" />
+      <TextField fx:id="text_email" prefHeight="25.0" prefWidth="200.0" />
+   </HBox>
+   <HBox layoutX="16.0" layoutY="251.0" prefHeight="41.0" prefWidth="637.0">
+      <Label prefHeight="20.0" prefWidth="100.0" style="-fx-text-fill: #301934;" text="password:" />
+      <TextField fx:id="text_password" prefHeight="25.0" prefWidth="200.0" />
+   </HBox>
+</AnchorPane>
